@@ -1,0 +1,52 @@
+/* FeaturesSection.css */
+
+.features-section {
+    width: 100vw; /* Use full viewport width for the section */
+    padding: 50px 50px; /* Add padding to both sides for spacing */
+    background-color: #f4f4f4;
+    margin: 0; /* Remove any margin */
+    position: relative; /* Keep it consistent with other sections */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align the content */
+}
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px; /* Set a similar max-width as Testimonials section */
+    width: 100%; /* Fill available space but respect max-width */
+}
+
+.feature:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.feature-image img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.feature-text {
+    max-width: 50%;
+    padding: 0 20px;
+}
+
+.feature-text h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.feature-text p {
+    font-size: 1.2rem;
+    color: #666;
+    line-height: 1.6;
+}

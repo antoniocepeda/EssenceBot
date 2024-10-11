@@ -1,0 +1,72 @@
+/* Footer.css */
+
+.footer {
+    width: 100vw; /* Use full viewport width */
+    padding: 50px 50px; /* Add padding to both sides for spacing */
+    background-color: #000428;
+    color: #ffffff;
+    text-align: center;
+    margin: 0; /* Remove any margin */
+    position: relative;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 30px;
+    max-width: 1200px; /* Limit the width of content */
+    margin-left: auto; /* Center the content horizontally */
+    margin-right: auto;
+}
+
+.company-info {
+    max-width: 30%;
+    text-align: left;
+}
+
+.quick-links {
+    max-width: 20%;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin-bottom: 10px;
+}
+
+.quick-links a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.quick-links a:hover {
+    color: #00ffb3;
+}
+
+.social-media {
+    max-width: 20%;
+}
+
+.social-media .icons {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #333;
+    padding-top: 20px;
+    max-width: 1200px; /* Limit the width of footer-bottom */
+    margin-left: auto; /* Center the footer bottom horizontally */
+    margin-right: auto;
+}
+
+.footer-bottom p {
+    font-size: 0.9rem;
+    margin: 0;
+}

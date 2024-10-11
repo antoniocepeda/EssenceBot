@@ -1,0 +1,35 @@
+/* HeroSection.css */
+
+.hero {
+    width: 100vw; /* Use full viewport width */
+    padding: 100px 20px; /* Add padding for top and bottom and a little side padding */
+    background: linear-gradient(to right, #000428, #004e92); /* Gradient background */
+    color: #ffffff;
+    margin: 0; /* Remove any margin */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.hero-container {
+    max-width: 1200px; /* Match the max-width with the footer */
+    margin: 0 auto; /* Center the container horizontally */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    flex: 1; /* Allow text to take up space */
+    padding-right: 20px; /* Add space between text and image */
+}
+
+.hero-image {
+    flex: 1; /* Allow image to take up space */
+    text-align: right; /* Align image to the right */
+}
+
+.hero-image img {
+    max-width: 400px; /* Set a suitable max-width for the image */
+    width: 100%;
+    border-radius: 10px;
+}

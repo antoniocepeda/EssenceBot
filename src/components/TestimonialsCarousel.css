@@ -1,0 +1,47 @@
+/* TestimonialsCarousel.css */
+
+.testimonials-carousel {
+    width: 100vw; /* Use full viewport width */
+    padding: 50px 50px; /* Add padding to both sides for spacing */
+    background-color: #004e92; /* Gradient background for full width */
+    color: #ffffff;
+    text-align: center;
+    margin: 0; /* Remove any margin */
+    position: relative;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.testimonials-carousel h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.testimonial {
+    background: #ffffff;
+    color: #004e92;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    transition: transform 0.3s;
+}
+
+.testimonial:hover {
+    transform: translateY(-10px);
+}
+
+.testimonial p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.testimonial span {
+    font-weight: bold;
+    font-size: 1rem;
+}
